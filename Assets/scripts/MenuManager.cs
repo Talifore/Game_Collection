@@ -21,4 +21,24 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene("Blackjack");
     }
+
+    public void Wordle()
+    {
+        SceneManager.LoadScene("Wordle");
+    }
+
+    public void TicTacToe()
+    {
+        SceneManager.LoadScene("TicTacToe");
+    }
+
+    public void Pong()
+    {
+        SceneManager.LoadScene("Pong");
+    }
+
+    public void SpaceInvader()
+    {
+        SceneManager.LoadScene("SpaceInvader");
+    }
 }
